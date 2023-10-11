@@ -1,0 +1,67 @@
+
+## Categories
+
+
+- ### CKA EXAM Topics
+    - [Workloads and Scheduling](#workloads-and-scheduling) -- 15%
+    - [Service and Networking](#service-and-networking--20) | 20%
+    - [Architecture and Maintenance](#architecture-and-maintenance--25) | 25%
+    - [Storage](#storage--10) | 10%
+    - [Troubleshooting](#troubleshooting--30) | 30%
+
+
+
+### Workloads and Scheduling
+
+### Service and Networking
+
+### ARCHITECTURE, INSTALL AND MAINTENANCE
+
+```yaml
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - namespaces
+  verbs:
+  - get
+
+kubectl auth can-i get namespaces --as system:serviceaccount:default:green-sa-cka22-arch
+
+```
+
+### Storage
+
+### Troubleshooting
+
+ #### Issue with Pod Deployment
+- Container Image Name
+- Wrong PVC Name
+- Wrong command /bin/bash or /bin/sh
+
+```bash
+kubectl describe pod podname
+kubectl decribe deploy demployname
+kubectl logs podname
+kubectl get event --field-selector involvedObject.name web-dp-cka06-trb-b9c78798f-tcwj8
+```
+
+#### Issue with Service
+- Check the ports
+- Check the labels if it matches the deployment label
+```bash
+
+kubectl edit svc web-service-cka06-trb
+
+
+  ports:
+  - nodePort: 30005
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: web-app-cka06-trb
+
+    
+```
+

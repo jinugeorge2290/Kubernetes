@@ -1,0 +1,16 @@
+
+### Find Logs
+
+```
+### Find Logs
+
+kubectl get event --field-selector involvedObject.name=check-time-cka03-trb
+
+
+
+```
+
+
+Check if this service account is associated with any role binding
+
+kubectl get rolebinding -o yaml | grep -B 5 -A 5 thor-cka24-trb

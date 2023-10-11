@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "5f2b8e904988d650",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d56a3d5cdcf8e48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23827eaed0ef835c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "745d7430ff885a38",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2b7c57768a3dc8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mock_exam-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "758dd09749f8e683",
+    "type": "split",
+    "children": [
+      {
+        "id": "0604748ce6a91040",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b278601d5d505c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85b1f03ba9ec6ac8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d6888be05122302",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86c9e31e19773b42",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7afab66a4fa3bb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "40eae89a26e3cdd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9682528af65344aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "mock_exam-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "210df590e8e27a8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "mock_exam-1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ef9212b43daa185",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2907cbd60677c858",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "mock_exam-1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b2b7c57768a3dc8f",
+  "lastOpenFiles": [
+    "Workloads and Scheduling",
+    "Useful_Commands",
+    "TroubleshootingQuestions.md",
+    "Cheat_Code",
+    "Troubleshooting Questions",
+    "CKA Questions.md",
+    "MOCk EXAM - 1.md"
+  ]
+}
